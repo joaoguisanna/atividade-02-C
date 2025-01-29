@@ -1,1 +1,28 @@
+using System;
 
+namespace sanna
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+	       Console.WriteLine("Digite um numero:");
+           int num1 = Convert.ToInt32(Console.ReadLine());
+       
+           
+           Console.WriteLine("Digite um numero:");
+           int num2 = Convert.ToInt32(Console.ReadLine());
+           
+			
+           
+           int soma = num1 + num2;
+            Console.WriteLine("A soma dos dois numeros e: " + soma);
+           
+           
+           
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}

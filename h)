@@ -1,1 +1,29 @@
+using System;
 
+namespace sanna
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+			
+	       Console.WriteLine("Digite um numero:");
+           double num1 = Convert.ToDouble(Console.ReadLine());
+       
+           
+        
+        
+         
+           double numAbsoluto = Math.Abs (num1);
+        Console.WriteLine("Seu numero absoluto e: " + numAbsoluto);
+        
+        
+        
+           
+           
+           
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}

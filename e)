@@ -21,7 +21,7 @@ namespace sanna
         
            
            int divisao = num1 / num2;
-            Console.WriteLine("A elevacao do seu numero ao quadrado e: " + divisao);
+            Console.WriteLine("A divisao do seu numero e: " + divisao);
            
            
            
